@@ -2315,7 +2315,7 @@ figure.highlight pre .javascript .function {
 }
 #recent-posts .recent-post-item >.recent-post-info > .article-title .sticky {
   margin-right: 10px;
-  color: #ff7242;
+  color: #a688a0;
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
@@ -3205,7 +3205,7 @@ figure.highlight pre .javascript .function {
   color: #6bafc6;
 }
 #post-comment .comment-head .comment-switch .second-comment {
-  color: #ff7242;
+  color: #a688a0;
 }
 #post-comment .comment-head .comment-switch #switch-btn {
   position: relative;
@@ -3249,7 +3249,7 @@ figure.highlight pre .javascript .function {
   display: none;
 }
 #post-comment.move #switch-btn {
-  background-color: #ff7242;
+  background-color: #a688a0;
 }
 #post-comment.move #switch-btn:before {
   -webkit-transform: translateX(20px);
