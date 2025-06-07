@@ -1,4 +1,4 @@
-http://example.com/RoadMap/index.html
+http://example.com/roadmap/index.html
 http://example.com/index.html
 http://example.com/categories/index.html
 http://example.com/css/custom.css
