@@ -1,25 +1,26 @@
-.tech-icons
-  display: flex
-  flex-wrap: nowrap
-  overflow-x: auto
-  gap: 1.5rem
-  padding: 1rem 0
-  justify-content: center
-  align-items: center
 
-  // 滚动条样式优化（可选）
-  &::-webkit-scrollbar
-    height: 6px
-  &::-webkit-scrollbar-thumb
-    background: #ccc
-    border-radius: 3px
 
-.tech-icon
-  width: 50px
-  height: 50px
-  flex: 0 0 auto
-  transition: transform 0.3s ease
-  &:hover
-    transform: scale(1.15)
+.tech-icons {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-icon {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+  border: 2px solid red;
+}
+
+.tech-icon:hover {
+  transform: scale(1.15);
+}
+
 
 
