@@ -1,7 +1,7 @@
+http://example.com/index.html
 http://example.com/tags/index.html
 http://example.com/about/index.html
 http://example.com/categories/index.html
-http://example.com/index.html
 http://example.com/RoadMap/index.html
 http://example.com/search/index.html
 http://example.com/2025/06/06/hello-world/
