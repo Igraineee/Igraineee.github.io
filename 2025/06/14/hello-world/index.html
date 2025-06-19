@@ -176,7 +176,7 @@
   let initFn = window.walineFn || null
   const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
   const option = null
-
+ 
   const destroyWaline = ele => ele.destroy()
 
   const initWaline = (Fn, el = document, path = window.location.pathname) => {
@@ -213,6 +213,7 @@
         })
     }
   }
+  
 
   if (isShuoshuo) {
     'Waline' === 'Waline'
