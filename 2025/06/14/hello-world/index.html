@@ -176,7 +176,22 @@
   let initFn = window.walineFn || null
   const isShuoshuo = GLOBAL_CONFIG_SITE.pageType === 'shuoshuo'
   const option = null
- 
+
+  #waline
+  const waline = Waline.init({
+     el: '#waline',
+     serverURL: 'https://comment-g4dcogm6i-igraineees-projects.vercel.app',
+     lang: 'zh-CN',
+     pageview: true,
+     emoji: [
+    '//unpkg.com/@waline/emojis@1.2.0/tieba',
+    '//unpkg.com/@waline/emojis@1.2.0/weibo'
+     ],
+     locale: {
+    placeholder: '欢迎留言~'
+  }
+});
+
   const destroyWaline = ele => ele.destroy()
 
   const initWaline = (Fn, el = document, path = window.location.pathname) => {
