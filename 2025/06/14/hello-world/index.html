@@ -189,12 +189,14 @@
 
     const config = {
       src: 'https://utteranc.es/client.js',
-      repo: '',
+      repo: 'Igraineee/Igraineee.github.io',
       theme: getUtterancesTheme(document.documentElement.getAttribute('data-theme')),
       crossorigin: 'anonymous',
       async: true,
-      ...option,
-      'issue-term': isShuoshuo ? key : (option && option['issue-term']) || 'pathname'
+    //-   ...option,
+    //-   'issue-term': isShuoshuo ? key : (option && option['issue-term']) || 'pathname'
+      'issue-term': option?.['issue-term'] || 'pathname',
+      label: 'Comments',
     }
 
     const ele = document.createElement('script')
@@ -245,12 +247,14 @@
 
     const config = {
       src: 'https://utteranc.es/client.js',
-      repo: '',
+      repo: 'Igraineee/Igraineee.github.io',
       theme: getUtterancesTheme(document.documentElement.getAttribute('data-theme')),
       crossorigin: 'anonymous',
       async: true,
-      ...option,
-      'issue-term': isShuoshuo ? key : (option && option['issue-term']) || 'pathname'
+    //-   ...option,
+    //-   'issue-term': isShuoshuo ? key : (option && option['issue-term']) || 'pathname'
+      'issue-term': option?.['issue-term'] || 'pathname',
+      label: 'Comments',
     }
 
     const ele = document.createElement('script')
